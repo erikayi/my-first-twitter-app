@@ -14,6 +14,11 @@
     <script src="https://connectors.tableau.com/libs/tableauwdc-2.2.latest.js" type="text/javascript"></script>
     <script src="js/twitterwebconnect.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        var next_results;
+        var maxrecords=2000; //maximum number if tweets to be returned from Twitter API
+    </script>
 </head>
 
 <body>
@@ -35,7 +40,7 @@
 
                 <p class="lead">This Web Data Connector is Powered By The <a target="_blank" href="https://dev.twitter.com/rest/reference/get/search/tweets">Twitter Search API</a>.</p>
                 <p class="lead"><a target="_blank" href="https://developer.twitter.com/en/docs/tweets/search/guides/standard-operators">Click Here</a> For Information On Using Operations To Build A Query.</p>
-                <p class="lead" id="maxrecords">Returns Up To 5000 Most Recent Tweets</p>
+                <p class="lead" id="maxrecords">Returns Up To 2000 Most Recent Tweets</p>
             </div>
         </div>
     </div>
