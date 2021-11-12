@@ -9,10 +9,10 @@ require_once("TwitterAPIExchange.php");
 
 /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
 $settings = array(
-    "oauth_access_token" => "1328893583609487361-0cHnSIcI0190Ld9ctR9SIc6qFoVSOV",
-    "oauth_access_token_secret" => "l7QQ31g3apjCCzacfdjkATeb0xcPpWXx0OOwXxheeBGlk",
-    "consumer_key" => "fbJDaS4NXzIWb0EYccPzxSymL",
-    "consumer_secret" => "Ncj80SFzBVwFfYjviMKb11Q3oF2tpKMVVGEpsbkbUMThKNAUtl"
+    "oauth_access_token" => "1328893583609487361-nLT2lsuRVdV0Imh4YrA5eNCsEZFpE2",
+    "oauth_access_token_secret" => "bV02HYRbsroRHsIReUbVw0G62tZjDnfsNev1r8d2anLNQ",
+    "consumer_key" => "5FBS2rwFoOOulHcQtargpzN6j",
+    "consumer_secret" => "MvGdVFBnBaEsVW232hUH9Z5oVrE22k7KvKlThpkTrIPlVmn2gS"
 );
  
 $url = "https://api.twitter.com/1.1/search/tweets.json";
